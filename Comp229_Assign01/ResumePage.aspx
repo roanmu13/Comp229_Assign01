@@ -1,7 +1,10 @@
 ﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ResumePage.aspx.cs" Inherits="Comp229_Assign01.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-   
+   <!-- Rosa Munguia
+    Comp 229 Sec 009
+    Sept 29 2017
+    300735300-->
      <h3>My Portfolio</h3>
    
        
@@ -14,7 +17,7 @@
             
 <h3 class="title">Aspiring Web Developer</h3>
   
-           <p style="font-size:22px"> <asp:Label ID="mission" runat="server" Text="Mission Statement"></asp:Label></p>
+    <p style="font-size:22px"> <asp:Label ID="mission" runat="server" Text="Mission Statement"></asp:Label></p>
   <p>Goal-oriented second year software engineering student ready to take on the different challenges within the industry to gain an enriching and insightful experience. I gained an interest
       in the field being an ever thriving industry, to provide for my family
   </p> 

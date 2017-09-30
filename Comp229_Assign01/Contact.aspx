@@ -25,7 +25,7 @@
             
         </p>
     </div>
-  
+  <!--Contact form-->
       <fieldset><legend>Submit Request</legend></fieldset>
       <p>Name:</p><input id="nameTextbox" type="text" />
     <p>Contact Number:</p><input id="contactTextbox" type="text" />
