@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
    
-     <h2>My Portfolio</h2>
+     <h3>My Portfolio</h3>
    
        
        <div class="pic">  <img alt="My picture" src="Images/Rosa.jpg" style="width: 350px; height: 351px; float:left" /><blockquote style="float:left">
@@ -12,9 +12,9 @@
 </blockquote></div>
          <div class="info">
             
-<h3 class="title">&nbsp;Aspiring Web Developer</h3>
+<h3 class="title">Aspiring Web Developer</h3>
   
-             <asp:Label ID="mission" runat="server" Text="Mission Statement"></asp:Label>
+           <p style="font-size:22px"> <asp:Label ID="mission" runat="server" Text="Mission Statement"></asp:Label></p>
   <p>Goal-oriented second year software engineering student ready to take on the different challenges within the industry to gain an enriching and insightful experience. I gained an interest
       in the field being an ever thriving industry, to provide for my family
   </p> 
@@ -56,8 +56,8 @@ Business Management Certificate </p>
     <!--Past Work Experience Section-->
 
    <div id="pastWork1">
-       <h3>Work Experience</h3>
-     <h4> <asp:Label ID="aromaLabel1" runat="server" Text="Aroma Waxing Clinic"></asp:Label></h4>
+       <h4 style="text-align:center">Work Experience</h4>
+     <h5> <asp:Label ID="aromaLabel1" runat="server" Text="Aroma Waxing Clinic"></asp:Label></h5>
   <p> Front Desk Manager<br />
      July 2010- November 2015<br />
   </p> 
@@ -67,7 +67,7 @@ Business Management Certificate </p>
            <li>Was responsible for payroll of entire staff</li>
        </ul></div><br />
       <div id="pastWork2"> 
-     <h4> <asp:Label ID="aromaLabel2" runat="server" Text="Aroma Waxing Clinic"></asp:Label></h4>
+     <h5> <asp:Label ID="aromaLabel2" runat="server" Text="Aroma Waxing Clinic"></asp:Label></h5>
   <p> Esthetician<br />
      July 2010- August 2011<br />
   </p> 
@@ -76,7 +76,7 @@ Business Management Certificate </p>
        </ul></div>
     <div id="pastWork3"> 
         
-     <h4> <asp:Label ID="bluenotesLabel" runat="server" Text="Bluenotes"></asp:Label></h4>
+     <h5> <asp:Label ID="bluenotesLabel" runat="server" Text="Bluenotes"></asp:Label></h5>
   <p> Sales Associate<br />
      September 2007-April 2009<br />
   </p> 

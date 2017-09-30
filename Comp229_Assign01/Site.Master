@@ -21,6 +21,10 @@
             font-family: "Monotype Corsiva";
         }
     </style>
+    <!-- Link to add amaranth font to page-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amaranth" />
+    <!-- Link to add font awesome icons to page-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <form runat="server">

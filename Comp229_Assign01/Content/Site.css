@@ -9,10 +9,13 @@
 body {
     /*padding-top: 50px;*/
     padding-bottom: 20px;
-    background-color: rgba(242,246,248,1);
-    
+    background-color: rgba(235,233,249,1);
 }
 
+h3{
+    font-family:Amaranth;
+    font-size:50px;
+}
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
@@ -76,6 +79,9 @@ textarea {
     position: relative;
    width:900px;
 }
+.home{
+    font-size:18px;
+}
 
 #logo {
     float: left;
@@ -95,4 +101,16 @@ textarea {
     float:left;
     height: 664px;
     width: 415px;
+}
+#mission{
+    font-size:30px;
+}
+h4{
+    font-weight:bold;
+}
+
+/*Contact Page*/
+
+.fa{
+    padding:20px;
 }
