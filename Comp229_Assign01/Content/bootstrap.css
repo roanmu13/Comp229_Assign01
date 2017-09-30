@@ -58,7 +58,8 @@ html {
 }
 
 body {
-  margin: 0;
+    margin: 0;
+    background-color: rgba(240,240,240,1);
 }
 
 a:focus {
@@ -3788,6 +3789,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  display:block;
 }
 
 .nav:before,
@@ -3827,9 +3829,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #eeeeee;
 }
 
-.nav > li.disabled > a {
-  color: #999999;
-}
+    .nav > li.disabled > a {
+        color: #30345b;
+    }
 
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
@@ -4927,41 +4929,34 @@ a.list-group-item.active > .badge,
   margin-left: 3px;
 }
 
-.jumbotron {
-  padding: 30px;
-  margin-bottom: 30px;
-  font-size: 21px;
-  font-weight: 200;
-  line-height: 2.1428571435;
-  color: inherit;
-  background-color: #eeeeee;
-}
-
 .jumbotron h1 {
-  line-height: 1;
-  color: inherit;
+    line-height: 1;
+    color: inherit;
 }
 
 .jumbotron p {
-  line-height: 1.4;
+    line-height: 1.4;
 }
 
 .container .jumbotron {
-  border-radius: 6px;
+    border-radius: 6px;
 }
 
 @media screen and (min-width: 768px) {
-  .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
-  .container .jumbotron {
-    padding-right: 60px;
-    padding-left: 60px;
-  }
-  .jumbotron h1 {
-    font-size: 63px;
-  }
+    .jumbotron {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-top: 0px;
+    }
+
+    .container .jumbotron {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .jumbotron h1 {
+        font-size: 63px;
+    }
 }
 
 .thumbnail {

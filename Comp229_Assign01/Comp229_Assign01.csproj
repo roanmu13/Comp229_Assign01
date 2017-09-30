@@ -143,6 +143,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Images\abstract.jpg" />
     <Content Include="Images\contact.jpg" />
     <Content Include="Images\CV.png" />
     <Content Include="Images\Rosa.jpg" />

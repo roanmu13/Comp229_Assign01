@@ -1,7 +1,9 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
-    padding-top: 50px;
+    /*padding-top: 50px;*/
     padding-bottom: 20px;
+    background-color: rgba(242,246,248,1);
+    
 }
 
 /* Wrapping element */
@@ -9,6 +11,7 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
@@ -28,4 +31,51 @@ textarea {
     .body-content {
         padding: 0;
     }
+}
+
+#homePage{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:800px;
+    top: 11px;
+    left: 249px;
+}
+#rosaBanner {
+    padding-left: 30px;
+    font-family: monotype corsiva;
+}
+
+#myNav{
+    background-color:#eeeeee;
+}
+
+#myNav a:hover{
+    background-color:dimgrey;
+    color:ivory;
+    font-size:16px;
+}
+
+#myNav ul li a{
+    color:darkblue;
+}
+.myName{
+    font-family:'Monotype Corsiva';
+    font-size:large;
+}
+
+#wholePage {
+    margin: auto;
+    position: relative;
+   width:900px;
+}
+
+#logo {
+    float: left;
+    padding-left: 10px;
+    width: 150px;
+    height: 120px;
+    overflow:hidden;
+    margin-bottom:25px;
+    
 }

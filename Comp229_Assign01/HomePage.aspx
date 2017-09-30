@@ -2,8 +2,8 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-     <h3>Welcome To Rosa's Portfolio</h3>
-       <p>Check out my resume  <a href="About.aspx"><img src="Images/CV.png" /></a></p>
-    <p>Feel free to <a href="Contact.aspx">contact me<img src="Images/contact.jpg" /></a></p>
-
+    <div id="homePage"> <h3>Welcome To Rosa's Portfolio</h3><br />
+       <p>Check out my resume  <a href="About.aspx"><img src="Images/CV.png" /></a></p><br />
+    <p>Feel free to <a style="text-decoration:none" href="Contact.aspx">contact me<img src="Images/contact.jpg" /></a></p>
+</div>
 </asp:Content>

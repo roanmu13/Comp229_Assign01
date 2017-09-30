@@ -9,12 +9,18 @@
     <title><%: Page.Title %> - My ASP.NET Application</title>
 
     <asp:PlaceHolder runat="server">
+        
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+ <link rel="stylesheet" href="Site.css" type="text/css"/>
+    <style type="text/css">
+        .newStyle1 {
+            font-family: "Monotype Corsiva";
+        }
+    </style>
 </head>
 <body>
     <form runat="server">
@@ -24,7 +30,7 @@
                 <%--Framework Scripts--%>
                 <asp:ScriptReference Name="MsAjaxBundle" />
                 <asp:ScriptReference Name="jquery" />
-                <asp:ScriptReference Name="bootstrap" />
+              <asp:ScriptReference Name="bootstrap" />
                 <asp:ScriptReference Name="respond" />
                 <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
                 <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
@@ -38,32 +44,27 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
-                </div>
-                <div class="navbar-collapse collapse">
+        <div class="jumbotron" id="rosaBanner" style="background-color:#666699">
+      <header>  <h1 class="myName"><img id="logo" src="Images/abstract.jpg" style="position:relative; top: 0px; left: 0px;" />Rosa Munguia</h1>
+            <!--Image Source:
+                http://www.webdesignhot.com/free-vector-graphics/abstract-background-vector-colorful/ -->
+        </header></div>
+        
+                <div class="navbar-collapse collapse" id="myNav">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
+                        <li><a runat="server" href="~/HomePage">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                     </ul>
-                </div>
-            </div>
+               
+            
         </div>
-        <div class="container body-content">
+       <div id="wholePage"> <!--<div class="container body-content"></div>-->
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> -Rosa Munguia - Centennial College - Web Applications</p>
             </footer>
         </div>
 
