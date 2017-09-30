@@ -54,13 +54,13 @@ Applications:
 Centennial College – Toronto, Ontario <br />   January 2013-December 2014<br />
 Business Management Certificate </p>	
     <ul><li>GPA 3.8/4.5</li></ul>
-
+             <br />
 </div>
     <!--Past Work Experience Section-->
 
    <div id="pastWork1">
        <h4 style="text-align:center">Work Experience</h4>
-     <h5> <asp:Label ID="aromaLabel1" runat="server" Text="Aroma Waxing Clinic"></asp:Label></h5>
+     <em><h5> <asp:Label ID="aromaLabel1" runat="server" Text="Aroma Waxing Clinic"></asp:Label></h5></em>
   <p> Front Desk Manager<br />
      July 2010- November 2015<br />
   </p> 
@@ -70,7 +70,7 @@ Business Management Certificate </p>
            <li>Was responsible for payroll of entire staff</li>
        </ul></div><br />
       <div id="pastWork2"> 
-     <h5> <asp:Label ID="aromaLabel2" runat="server" Text="Aroma Waxing Clinic"></asp:Label></h5>
+     <em><h5> <asp:Label ID="aromaLabel2" runat="server" Text="Aroma Waxing Clinic"></asp:Label></h5></em>
   <p> Esthetician<br />
      July 2010- August 2011<br />
   </p> 
@@ -79,7 +79,7 @@ Business Management Certificate </p>
        </ul></div>
     <div id="pastWork3"> 
         
-     <h5> <asp:Label ID="bluenotesLabel" runat="server" Text="Bluenotes"></asp:Label></h5>
+    <em> <h5> <asp:Label ID="bluenotesLabel" runat="server" Text="Bluenotes"></asp:Label></h5></em>
   <p> Sales Associate<br />
      September 2007-April 2009<br />
   </p> 
