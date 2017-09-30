@@ -1,4 +1,11 @@
-﻿/* Move down content because we have a fixed navbar that is 50px tall */
+﻿/*
+    Rosa Munguia
+    Comp229 Section 009
+    September 29 2017
+    Student No. 300735300
+*/
+
+/* Home Page CSS */
 body {
     /*padding-top: 50px;*/
     padding-bottom: 20px;
@@ -78,4 +85,14 @@ textarea {
     overflow:hidden;
     margin-bottom:25px;
     
+}
+
+/*Resume Page CSS*/
+.info{    margin-left: 361px;
+}
+
+.pic{
+    float:left;
+    height: 664px;
+    width: 415px;
 }
